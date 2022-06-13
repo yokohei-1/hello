@@ -7,7 +7,7 @@ public class kazuate {
         int i;
         System.out.println("数当てゲームです。2桁の数字を入力してください");
         Random rand = new Random();
-        int num = rand.nextInt(100);
+        int num = rand.nextInt(89) + 10;
         for (i = 0;i < 5;i++) {
             int num1 = scan.nextInt();
             if (num1 == num) {
