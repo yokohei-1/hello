@@ -15,6 +15,11 @@ public class kazuate {
                 break;
             } else {
                 System.out.println("ハズレ!!");
+                if (num1 - num > 0) {
+                    System.out.println("正解よりも大きいです");
+                } else {
+                    System.out.println("正解よりも小さいです");
+                }
                 if (Math.abs(num1 - num) > 19) {
                     System.out.println("正解と20以上の差があります");
                 }
